@@ -1,23 +1,34 @@
 Numéro,Sujet,Description
+
 1,Inscription et Test,Inscription et évaluation initiale des apprenants via des tests
 2,Entretien d'inscription,Organisation d'entretiens pour valider les inscriptions
+10,Entretien individuel,Organisation et suivi des entretiens individuels
+
+8,Emploi du temps,Organisation et consultation des emplois du temps
+9,Cahier de texte - séances,Gestion des notes et des activités pour chaque séance
+
 3,Saisie d'absence,Enregistrement des absences des apprenants pour une séance
 4,Justification d'absence,Ajout de justificatifs pour les absences enregistrées
 5,Calcule des sanctions,Calcul automatisé des sanctions basées sur les absences
+
 6,Suivi d'avancement des autoformations,Suivi des progressions dans les autoformations des apprenants
 7,Planification des sessions de formation,Planification des sessions et gestion du calendrier des formations
-8,Emploi du temps,Organisation et consultation des emplois du temps
-9,Cahier de texte - séances,Gestion des notes et des activités pour chaque séance
-10,Entretien individuel,Organisation et suivi des entretiens individuels
+
+
 11,Conception d'un QCM,Création personnalisée de questionnaires à choix multiples
 12,Réalisation d'un QCM,Lancement et suivi des QCM pour les apprenants
 13,Gestion des veilles,Suivi des activités et rapports liés à la veille stratégique
+
+
+17,Gestion des participants à IT Wave,Organisation des participants à l'événement IT Wave
+19,Gestion du tableau d'affichage,Création et mise à jour des tableaux d'affichage
+
+
+
 14,Gestion des ordres de mission,Gestion et suivi des ordres de missions administratifs
 15,Gestion des congés,Gestion des demandes et approbations de congés
 16,Gestion des certificats maladie,Traitement et archivage des certificats de maladie
-17,Gestion des participants à IT Wave,Organisation des participants à l'événement IT Wave
 18,Gestion des ateliers - Inscription et groupes,Gestion des inscriptions et des groupes pour les ateliers
-19,Gestion du tableau d'affichage,Création et mise à jour des tableaux d'affichage
 20,Création des certificats de participation,Génération automatique des certificats de participation
 21,Partage de documents et de ressources,Partage centralisé de documents et ressources pédagogiques
 22,Sondages en temps réel,Création et gestion de sondages en temps réel
