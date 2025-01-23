@@ -1,0 +1,48 @@
+classDiagram
+
+namespace PkgAbsence {
+  class Absence
+  class Seance
+  class JustificationAbsence
+}
+
+namespace PkgUtilisateurs {
+class Formateur
+class Apprenant
+}
+
+
+class Seance{
+  id: int,
+  DateSeance : date,
+}
+
+class Absence{
+  id: int,
+}
+
+
+class JustificationAbsence{
+  id: int,
+  date_debut: date,
+  date_fin: date,
+  date_deposition:date,
+}
+
+
+class justifAbsence{
+  id: int,
+}
+ 
+
+
+namespace PkgEmploiTemps {
+  class DureeSeance
+}
+Absence -- Apprenant
+Seance "1" -- "*" Absence
+Seance  --> "1" DureeSeance
+
+JustificationAbsence --  "1" justifAbsence
+
+

@@ -1,0 +1,25 @@
+classDiagram
+
+namespace PkgSanction {
+  class SanctionAbsence
+}
+
+class SanctionAbsence{
+  id int,
+}
+namespace PkgUtilisateurs {
+class Apprenant
+}
+
+ 
+namespace PkgEmploiTemps {
+  class DureeSeance
+}
+
+Absence -- Apprenant
+Seance "1" -- "*" Absence
+Seance  --> "1" DureeSeance
+
+JustificationAbsence --  "1" justifAbsence
+
+

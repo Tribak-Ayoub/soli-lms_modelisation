@@ -1,0 +1,41 @@
+classDiagram
+
+namespace PkgEmploiTemps {
+  class SeanceEmploiTemps
+  class DureeSeance
+  class EmploiTemps
+}
+
+class DureeSeance {
+ id: int,
+ code : string,
+ date_debut: time
+ date_fin: time
+}
+
+class EmploiTemps{
+  date_debut : date,
+  date_fin : date,
+}
+
+class SeanceEmploiTemps{
+  jour enum
+}
+
+
+namespace PkgUtilisateurs {
+  class Foramteur
+}
+
+namespace PkgCompetences {
+  class Groupe
+  class Module
+}
+
+SeanceEmploiTemps --  "1" DureeSeance
+SeanceEmploiTemps -- Foramteur
+SeanceEmploiTemps -- Groupe
+SeanceEmploiTemps -- Module
+%% Absence -- Apprenant
+%% Seance "1" -- "*" Absence
+%% Seance  --> "1" DureeSeance
